@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourabh Soni - Portfolio</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #222;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .contact-item {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .project-technologies{
+            margin-top: 5px;
+            font-style: italic;
+        }
+        @media (max-width: 600px) {
+            .contact-info {
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sourabh Soni</h1>
+        <div class="container contact-info">
+            <div class="contact-item">
+                <p>Email: <a href="mailto:Sourabhs701@gmail.com">Sourabhs701@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+                <p>Github: <a href="https://github.com/Sourabhs701" target="_blank">Sourabhs701</a></p>
+            </div>
+            <div class="contact-item">
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/Sourabhs701/" target="_blank">Sourabhs701</a></p>
+            </div>
+            <div class="contact-item">
+                <p>Portfolio: <a href="https://github.com/Sourabh-work" target="_blank">Sourabh-work</a></p>
+            </div>
+        </div>
+    </header>
+
+    <section class="container">
+        <h2>Education</h2>
+        <ul>
+            <!-- Education Loop -->
+            <li>
+                <strong>Rajasthan Technical University</strong>, Kota, Rajasthan<br>
+                Masters in Computer Application (MCA) | May 2023 - June 2025
+            </li>
+            <li>
+                <strong>University of Rajasthan</strong>, Jaipur, Rajasthan<br>
+                Bachelors in Computer Application (BCA) | May 2019 - June 2022
+            </li>
+        </ul>
+    </section>
+
+    <section class="container">
+        <h2>Work History</h2>
+        <ul>
+             <!-- Work History Loop -->
+            <li>
+                <h3>Python Developer Intern</h3>
+                <strong>NeuroNexus Innovations</strong>, Remote, Jaipur | Dec 2023 - Feb 2024<br>
+                <ul>
+                    <li>Improved code quality by implementing rigorous testing and debugging processes.</li>
+                    <li>Optimized application performance with efficient algorithms and data structures.</li>
+                    <li>Developed user-friendly interfaces for increased usability and accessibility.</li>
+                    <li>Streamlined development processes through effective use of version control tools such as Git.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="container">
+        <h2>Projects</h2>
+        <ul>
+            <!-- Project Loop -->
+            <li>
+                <h3>Fashion Recommendation System</h3>
+                <div class="project-technologies">Python, Tensorflow, Keras, Numpy, Streamlit</div>
+                <ul>
+                    <li>A Transfer Learning Based Fashion Recommendation system using CNN model ResNet50 with the accuracy of 74.9%.</li>
+                    <li>Uses Nearest Neighbor (Euclidean Distance) to Recommend the Fashion Clothing.</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Netflix Dashboard</h3>
+                <div class="project-technologies">Excel, Tableau</div>
+                <ul>
+                    <li>Performed ETL on 6000+ rows of data and Developed a Data Visualisation Dashboard of Netflix Movies & TV Shows using Tableau.</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Crypto Portfolio Tracker</h3>
+                <div class="project-technologies">Java, MySQL, API</div>
+                <ul>
+                    <li>This App will Create a Database of your investment and will calculate the profit or loss based on coins real-time price Data.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="container">
+        <h2>Achievements</h2>
+        <ul>
+            <!-- Achievements Loop -->
+            <li><strong>HackerRank:</strong> (5⭐) Problemsolving Certificate and 420+ points in Python.</li>
+            <li><strong>Certified in Excel Fundamentals – Formulas for Finance from CFI:</strong> proficient in utilizing Excel functions tailored for financial calculations and modeling.</li>
+        </ul>
+    </section>
+
+    <section class="container">
+        <h2>Technical Skills</h2>
+        <h3>Languages:</h3>
+        <ul>
+            <!-- Languages Loop -->
+            <li>C++</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>NoSQL</li>
+        </ul>
+        <h3>Courses:</h3>
+        <ul>
+            <!-- Courses Loop -->
+            <li>Data Structure and Algorithm</li>
+            <li>Computer Network</li>
+            <li>DBMS</li>
+            <li>Operating System</li>
+        </ul>
+    </section>
+</body>
+</html>
